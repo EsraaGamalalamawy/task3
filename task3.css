@@ -1,0 +1,147 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: url(image/hand.jpg);
+    background-size:cover;
+}
+*{
+    text-transform: capitalize;
+}
+.first-p1{
+    font-weight: bold;
+    text-align: center;
+    font-size: 35px;
+    margin-top: 20px;
+}
+.second{
+    width: 90%;
+    height: fit-content;
+    overflow: auto;
+    margin: 40px auto;
+    position: relative;
+}
+.second .main{
+    width: 30%;
+    background-color: white;
+    border-radius: 7px;
+    text-align: center;
+    border: 2px solid gray;
+}
+.second i{
+    font-size: 17px;
+    padding-right: 7px;
+}
+.second-one{
+    float: left;
+}
+.second-one i{
+    color: red;
+}
+.second-two{
+    float: left;
+    margin-left: 5%;
+}
+.second-two i{
+    color: #4caf50;
+}
+.second-three{
+    float: right;
+}
+.second-three i{
+    color: #2196f3;
+}
+.second .p1{
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+}
+.second .p1 span{
+    position: absolute;
+    width: 70px;
+    height: 2px;
+    background: #2196f3;
+    left: 50%;
+    bottom: -7px;
+    border-radius: 5px;
+    transform: translate(-50%, 0);
+}
+.second .circle{
+    width: 100px;
+    height: 110px;
+    background: red;
+    margin-left: 50%;
+    transform: translate(-50%, 0);
+    border-radius: 50%;
+    border: 2px solid #ddd;
+    outline: 2px solid #ddd;
+    outline-offset: 2px;
+    background: url(image/hand.jpg);
+    background-size: cover;
+    color: white;
+}
+.second .circle:hover{
+    width: 130px;
+    height: 140px;
+}
+.second .circle .back{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    border-radius: 50%;
+}
+.second-one .circle .back{
+    background: rgb(255 0 0 / 20%);
+}
+.second-two .circle .back{
+    background: rgb(0 255 0 / 20%);
+}
+.second-three .circle .back{
+    background: #2196f324;
+}
+.second .circle-p1{
+    font-size: 34px;
+    padding-top: 23px;
+    margin: 0;
+}
+.second .circle-p2{
+    margin: 0;
+}
+.second .p2{
+    color: #4c4b4b;
+    line-height: 1.4;
+    padding: 10px 20px;
+    margin-top: 2px;
+}
+.second button{
+    background: white;
+    padding: 5px 15px;
+    margin: -10px 0 15px 0;
+    color: red;
+    border-radius: 18px;
+}
+.second-one button{
+    border: 2px solid red;
+    background: red;
+    color: white;
+}
+.second-two button{
+    border: 2px solid #4caf50;
+    background: #4caf50;
+    color: white;
+}
+.second-three button{
+    border: 2px solid #2196f3;
+    background: #2196f3;
+    color: white;
+}
+.second button:hover{
+    background-color: white;
+}
+.second-one button:hover{
+    color: red;
+}
+.second-two button:hover{
+    color: #4caf50;
+}
+.second-three button:hover{
+    color: #2196f3;
+}
